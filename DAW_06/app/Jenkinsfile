@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                     // Copia los archivos del repositorio a la carpeta de Apache
-                    sh "cp -r app/* ${APACHE_ROOT}"
+                    sh "cp -r DAW_06/app/* ${APACHE_ROOT}"
                 }
             }
         }
